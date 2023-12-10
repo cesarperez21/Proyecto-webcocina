@@ -321,16 +321,7 @@ body {
 
 }
 
-.contenedor-seccion {
-  flex-direction: column;
-
-}
-
-.videotrailer {
-  width: 100%;
-  height: auto;
- margin-bottom: 10px;
-}
+/** header **/
 
 .logoweb1 {
   width: 50px;
@@ -343,17 +334,44 @@ body {
   margin-right: 20px;
 }
 
+.linkmenu a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: aliceblue;
+  background: rgb(110, 47, 47);
+  border-radius: 6px;
+  padding: 1px;
+}
+
 
 nav ul li {
   list-style: none;
   display: inline-block;
-  margin: 2px;
+  margin: 1px;
   margin-top: 10px;
 }
+
+/** main index **/
+
+.contenedor-seccion {
+  flex-direction: column;
+
+}
+
+.videotrailer {
+  width: 100%;
+  height: auto;
+ margin-bottom: 10px;
+}
+
+
 
 .collage {
   margin-bottom: 5px;
 }
+
+/** blog **/ 
 
 .contenedor-blog {
   margin: 0;
