@@ -42,12 +42,6 @@ header h1 {
     margin-right: 10px;
 }
 
-.titulo {
-    display: flex;
-    align-items: center;
-    margin-right: 20px;
-}
-
 
 nav ul li {
     list-style: none;
@@ -324,14 +318,17 @@ body {
 /** header **/
 
 .logoweb1 {
-  width: 50px;
-  margin-right: 10px;
+  width: 45px;
+  margin-right: 5px;
+  margin-left: 0px;
 }
+
+
 
 .titulo {
   display: flex;
   align-items: center;
-  margin-right: 20px;
+  font-size: 20px;
 }
 
 .linkmenu a {
@@ -359,6 +356,11 @@ nav ul li {
 
 }
 
+.portadas img {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+  }
+  
 .videotrailer {
   width: 100%;
   height: auto;
