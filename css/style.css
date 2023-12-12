@@ -378,3 +378,11 @@ nav ul li {
 }
 
 }
+
+
+/** footer **/
+
+div ol li {
+  width: 30px;
+  margin-right: 50px;
+}
