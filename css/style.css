@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(239, 240, 241);
+  background-color: rgb(239, 240, 241);
 
 }
 
@@ -11,43 +11,43 @@ main {
 /*** Header ***/
 
 header {
-    width: 100%;
-    display: flex;
-    margin-top: 5px;
-    border-bottom: 2px;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: rgb(192, 192, 148);
-    
+  width: 100%;
+  display: flex;
+  margin-top: 5px;
+  border-bottom: 2px;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(192, 192, 148);
+
 }
 
 header h1 {
-    font-family: 'Lobster', sans-serif;
+  font-family: 'Lobster', sans-serif;
 }
 
 .linkmenu a {
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: aliceblue;
-    background: rgb(110, 47, 47);
-    border-radius: 10px;
-    padding: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: aliceblue;
+  background: rgb(110, 47, 47);
+  border-radius: 10px;
+  padding: 10px;
 }
 
 
 .logoweb1 {
-    width: 60px;
-    padding-left: 10px;
-    margin-right: 10px;
+  width: 60px;
+  padding-left: 10px;
+  margin-right: 10px;
 }
 
 
 nav ul li {
-    list-style: none;
-    display: inline-block;
-    margin: 0 20px;
-    margin-top: 10px;
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  margin-top: 10px;
 }
 
 
@@ -67,42 +67,44 @@ main::after {
   margin-bottom: 50px;
 }
 
+
+
 .contenedor-seccion {
-display: flex;
-justify-content: space-around;
-padding: 20px;
-margin-bottom: 40px;
-border-radius: 10px;
-background-color: #f1e2e2
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  background-color: #f1e2e2;
 
 }
 
 .listaseccion {
-background-color: #f0e5e5;
-border: 1px solid #ddd;
-border-radius: 8px;
-overflow: hidden;
-margin: 10px;
-box-shadow: 0 4px 8px rgb(110, 47, 47);
+  background-color: #f0e5e5;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgb(110, 47, 47);
 }
 
 .portadas {
-padding: 20px;
-text-align: center;
+  padding: 20px;
+  text-align: center;
 }
 
 .portadas img {
-width: 300px;
-border-radius: 8px 8px 0 0;
+  width: 300px;
+  border-radius: 8px 8px 0 0;
 }
 
 .botonmas {
-text-decoration: none;
-background-color: #28582a;
-color: white;
-padding: 10px 20px;
-border-radius: 5px;
-display: inline-block;
+  text-decoration: none;
+  background-color: #28582a;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
 }
 
 .videotrailer {
@@ -113,42 +115,11 @@ display: inline-block;
 
 }
 
-.disfrutatexto {
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  font-size: 24px;
-  margin-bottom: 20px;
-  display: flex;
-  align-items: center;
-}
-
-.disfrutatexto::before,
-.disfrutatexto::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  width: 50%;
-  height: 1px;
-  background-color: #000;
-  transform: translateY(-50%);
-}
-
-.disfrutatexto::before {
-  left: 0;
-  transform: translateX(-100%);
-}
-
-.disfrutatexto::after {
-  right: 0;
-  transform: translateX(100%);
-}
-
-
 h2 {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   text-decoration: underline;
-  font-size: 400;
+  font-size: 400px;
   margin-top: 0px;
 }
 
@@ -159,105 +130,105 @@ p {
 /** Blog **/
 
 .contenedor-blog {
-    display: grid;
-    flex-wrap: wrap;
-    margin-left: 250px;
-    margin-right: 250px;
-  }
-  
-  .especias {
-    width: 100%;
-    margin-bottom: 50px;
-    display: flex;
-    align-items: center;
-    background-color: rgb(237, 231, 231);
-    box-shadow: 0 4px 8px rgb(110, 47, 47);
-  }
-  
-  .especias img {
-    max-width: 200px;
-    height: auto;
-    margin-right: 10px;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 250px;
+  margin-right: 250px;
+}
 
-  .negrita {
-    font-weight: bold;
-    font-size: 1.1em; 
-  }
-  
-  .texto-especias {
-    margin-left: 10px;
-  }
+.especias {
+  width: 100%;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(237, 231, 231);
+  box-shadow: 0 4px 8px rgb(110, 47, 47);
+}
+
+.especias img {
+  max-width: 200px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.negrita {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.texto-especias {
+  margin-left: 10px;
+}
 
 /** contacto **/
 
 form {
-    margin-top: 20px;
-    
+  margin-top: 20px;
+
 }
 
 label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
-    color: rgb(8, 8, 8);
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: rgb(8, 8, 8);
 
 }
 
 input[type="text"],
 textarea {
-    display: block;
-    width: 50%;
-    padding: 10px;
-    border: 2px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-    margin-bottom: 10px;
+  display: block;
+  width: 50%;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
 }
 
 /** recetas **/
 
 .contenedor-recetas {
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
-  }
-  
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
 .listarecetas {
-    background-color: #f0e5e5;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    overflow: hidden;
-    margin: 10px;
-    box-shadow: 0 4px 8px rgb(110, 47, 47);
-  }
-  
+  background-color: #f0e5e5;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgb(110, 47, 47);
+}
+
 .receta {
-    padding: 20px;
-    text-align: center;
-  }
-  
+  padding: 20px;
+  text-align: center;
+}
+
 .receta img {
-    width: 100%;
-    border-radius: 8px 8px 0 0;
-  }
-  
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
 .receta h3 {
-    margin-top: 0;
-  }
-  
-  .receta p {
-    margin-bottom: 10px;
-  }
-  
-  .receta a {
-    text-decoration: none;
-    background-color: #4caf50;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    display: inline-block;
-  }
+  margin-top: 0;
+}
+
+.receta p {
+  margin-bottom: 10px;
+}
+
+.receta a {
+  text-decoration: none;
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+}
 
 /** biografia **/
 
@@ -266,8 +237,10 @@ textarea {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 100vh; /* Ajusta según sea necesario */
+  min-height: 100vh;
   text-align: center;
+  margin-right: 300px;
+  margin-left: 300px;
 }
 
 .dibujobuffalo {
@@ -275,114 +248,148 @@ textarea {
   height: auto;
   margin-top: 20px;
 
-  }
+}
 
-  .texto-biografia {
-    font-size: 25px;
-    margin-left: 100px;
-    margin-right: 100px;
-  }
-  
-
+.texto-biografia {
+  font-size: 25px;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
 
 /** footer **/
 
 footer {
-    margin: 20px;
-    padding: 20px;
-    text-align: center;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
 
 }
 
 div ol li {
-    display: inline-table;
-    padding-left: 20px;
-    margin-top: 0 10px;
+  display: inline-table;
+  padding-left: 20px;
+  margin-top: 0 10px;
 }
 
 .logo {
-    width: 50px;
-    height: auto;
+  width: 50px;
+  height: auto;
 }
 
 
 /** Adaptado a Movil **/
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {  
 
-body { 
-  display: block;
+  body {
+    display: block;
 
-}
+  }
 
-/** header **/
+  /** header **/
 
-.logoweb1 {
+  .logoweb1 {
     margin-right: 10px;
   }
 
 
-
-.titulo {
-  display: flex;
-  align-items: center;
-  font-size: 15px;
-}
-
-.linkmenu a {
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: bold;
-  color: aliceblue;
-  background: rgb(110, 47, 47);
-  border-radius: 6px;
-  padding: 1px;
-}
-
-
-nav ul li {
-  list-style: none;
-  display: inline-block;
-  margin: 1px;
-  margin-top: 10px;
-}
-
-/** main index **/
-
-.contenedor-seccion {
-  flex-direction: column;
-
-}
-
-.portadas img {
-  width: 100%;
-  border-radius: 8px 8px 0 0;
+  .titulo {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
   }
+
+  .linkmenu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: aliceblue;
+    background: rgb(110, 47, 47);
+    border-radius: 6px;
+    padding: 1px;
+  }
+
+
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 1px;
+    margin-top: 10px;
+  }
+
+  /** main index **/
+
+  .contenedor-seccion {
+    flex-direction: column;
+
+  }
+
+  .portadas img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+  }
+
+  .videotrailer {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+
+  .collage {
+    margin-bottom: 5px;
+  }
+
+  /** biografia **/
+
+  .contenedor-centrado {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .dibujobuffalo {
+    width: 100%;
+    height: auto;
+  }
+
+  .texto-biografia {
+    font-size: 16px;
+  }
+
+  /** blog **/
+
+  .contenedor-blog {
+    margin: 0;
+  }
+
+  .especias {
+    width: 100%;
+    display: block;
+}
+
+
+
+  /** footer **/
+
+  div ol li {
+    width: 30px;
+    margin-right: 50px;
+  }
+
+}
+
+  /** adaptado tablet **/
+
+@media screen and (max-width: 1200px) {
+
+  body {
+    display: block;
+
+  }
+
+
   
-.videotrailer {
-  width: 100%;
-  height: auto;
- margin-bottom: 10px;
+  
 }
-
-
-
-.collage {
-  margin-bottom: 5px;
-}
-
-/** blog **/ 
-
-.contenedor-blog {
-  margin: 0;
-}
-
-}
-
-
-/** footer **/
-
-div ol li {
-  width: 30px;
-  margin-right: 50px;
-}
+ 
