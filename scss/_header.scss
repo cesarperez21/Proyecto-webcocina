@@ -1,0 +1,42 @@
+@mixin anclas {
+    text-decoration: none;
+
+}
+
+
+header {
+    width: 100%;
+    display: flex;
+    margin-top: 5px;
+    border-bottom: 2px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(192, 192, 148);
+
+    h1 {
+        font-family: 'Lobster', sans-serif;
+    }
+}
+
+.linkmenu a {
+    @include anclas;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: aliceblue;
+    background: rgb(110, 47, 47);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.logoweb1 {
+    width: 60px;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    margin-top: 10px;
+}

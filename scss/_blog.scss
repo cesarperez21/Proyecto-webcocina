@@ -1,0 +1,31 @@
+.contenedor-blog {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+  
+  .especias {
+    width: 100%;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(237, 231, 231);
+    box-shadow: 0 4px 8px rgb(110, 47, 47);
+  
+    img {
+      max-width: 200px;
+      height: auto;
+      margin-right: 10px;
+    }
+  }
+  
+  .negrita {
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+  
+  .texto-especias {
+    margin-left: 10px;
+  }
+  

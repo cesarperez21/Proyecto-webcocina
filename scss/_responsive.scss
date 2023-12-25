@@ -1,0 +1,119 @@
+/** Adaptado a Movil **/
+
+@media screen and (max-width: 768px) {
+    body {
+        display: block;
+    }
+
+    /** header **/
+
+    .logoweb1 {
+        margin-right: 10px;
+    }
+
+    .titulo {
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+    }
+
+    .linkmenu a {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: aliceblue;
+        background: rgb(110, 47, 47);
+        border-radius: 6px;
+        padding: 1px;
+    }
+
+    nav ul li {
+        list-style: none;
+        display: inline-block;
+        margin: 1px;
+        margin-top: 10px;
+    }
+
+    /** main index **/
+
+    .contenedor-seccion {
+        flex-direction: column;
+    }
+
+    .portadas img {
+        width: 100%;
+        border-radius: 8px 8px 0 0;
+    }
+
+    .videotrailer {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .collage {
+        margin-bottom: 5px;
+    }
+
+    /** recetas **/
+
+    .contenedor-recetas {
+        display: block;
+    }
+
+    /** biografia **/
+
+    .contenedor-centrado {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .dibujobuffalo {
+        width: 100%;
+        height: auto;
+    }
+
+    .texto-biografia {
+        font-size: 16px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    /** blog **/
+
+    .contenedor-blog {
+        margin: 0;
+    }
+
+    .especias {
+        width: 100%;
+        display: block;
+    }
+
+    /** contacto **/
+
+    form {
+        padding: 50px 30px;
+        width: 100%;
+    }
+
+    .contenedor-box-contacto {
+        display: flex;
+        margin-block: 50px;
+    }
+
+    /** footer **/
+
+    div ol li {
+        width: 30px;
+        margin-right: 50px;
+    }
+}
+
+/** adaptado tablet **/
+
+@media screen and (max-width: 1200px) {
+    body {
+        display: block;
+    }
+}

@@ -1,0 +1,42 @@
+.contenedor-recetas {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .listarecetas {
+    background-color: #f0e5e5;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgb(110, 47, 47);
+  }
+  
+  .receta {
+    padding: 20px;
+    text-align: center;
+  
+    img {
+      width: 100%;
+      border-radius: 8px 8px 0 0;
+    }
+  
+    h3 {
+      margin-top: 0;
+    }
+  
+    p {
+      margin-bottom: 10px;
+    }
+  
+    a {
+      text-decoration: none;
+      background-color: #4caf50;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      display: inline-block;
+    }
+  }
+  
