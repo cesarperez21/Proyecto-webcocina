@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   background-color: rgb(239, 240, 241);
 }
@@ -79,7 +80,7 @@ main::after {
   text-align: center;
 }
 .portadas img {
-  width: 300px;
+  width: 100%;
   border-radius: 8px 8px 0 0;
 }
 
@@ -181,13 +182,28 @@ input, textarea {
   padding: 20px;
 }
 
-.listarecetas {
-  background-color: #f0e5e5;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  overflow: hidden;
-  margin: 10px;
-  box-shadow: 0 4px 8px rgb(110, 47, 47);
+.descripcion-collage {
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.bonton-mas {
+  display: inline-block;
+  font-weight: 500px;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: 2px solid #333;
+  background-color: #fff;
+  text-decoration: none; /* Para quitar el subrayado del enlace */
+  color: #333; /* Color del texto */
+  cursor: pointer;
+}
+
+.bonton-mas::after {
+  content: "→";
+  margin-left: 5px;
 }
 
 .receta {
@@ -195,22 +211,11 @@ input, textarea {
   text-align: center;
 }
 .receta img {
-  width: 100%;
+  width: 50%;
   border-radius: 8px 8px 0 0;
-}
-.receta h3 {
-  margin-top: 0;
 }
 .receta p {
   margin-bottom: 10px;
-}
-.receta a {
-  text-decoration: none;
-  background-color: #4caf50;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 5px;
-  display: inline-block;
 }
 
 .contenedor-centrado {
@@ -302,6 +307,12 @@ div ol li {
   /** recetas **/
   .contenedor-recetas {
     display: block;
+  }
+  .receta img {
+    width: 100%;
+  }
+  .descripcion-collage {
+    font-size: 20px;
   }
   /** biografia **/
   .contenedor-centrado {

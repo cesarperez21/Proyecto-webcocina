@@ -1,42 +1,49 @@
 .contenedor-recetas {
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.descripcion-collage {
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.bonton-mas {
+  display: inline-block;
+  font-weight: 500px;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: 2px solid #333;
+  background-color: #fff;
+  text-decoration: none; /* Para quitar el subrayado del enlace */
+  color: #333; /* Color del texto */
+  cursor: pointer;
+}
+
+.bonton-mas::after {
+  content: "\2192"; 
+  margin-left: 5px;
+
+}
+ 
+
+
+.receta {
+  padding: 20px;
+  text-align: center;
+
+  img {
+    width: 50%;
+    border-radius: 8px 8px 0 0;
   }
-  
-  .listarecetas {
-    background-color: #f0e5e5;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    overflow: hidden;
-    margin: 10px;
-    box-shadow: 0 4px 8px rgb(110, 47, 47);
+
+
+  p {
+    margin-bottom: 10px;
   }
-  
-  .receta {
-    padding: 20px;
-    text-align: center;
-  
-    img {
-      width: 100%;
-      border-radius: 8px 8px 0 0;
-    }
-  
-    h3 {
-      margin-top: 0;
-    }
-  
-    p {
-      margin-bottom: 10px;
-    }
-  
-    a {
-      text-decoration: none;
-      background-color: #4caf50;
-      color: white;
-      padding: 10px 20px;
-      border-radius: 5px;
-      display: inline-block;
-    }
-  }
-  
+
+ 
+}
