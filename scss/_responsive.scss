@@ -45,14 +45,40 @@
         border-radius: 8px 8px 0 0;
     }
 
-    .videotrailer {
-        width: 100%;
-        height: auto;
-        margin-bottom: 10px;
+    .collage {
+        margin: 0px;
+
     }
 
-    .collage {
-        margin-bottom: 5px;
+    .contenedor-bienvenida {
+        margin: 0px;
+        display: block;
+    }
+
+    .imagen-redonda {
+        width: 100%;
+        height: auto;
+        margin: 0px;
+        padding-top: 1px;
+    }
+
+    .imagen-redonda-blog {
+        width: 100%;
+        margin: 0px;
+        padding-top: 1px;
+
+    }
+
+    .texto-bienvenida {
+        font-size: 16px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .texto-bienvenida-blog {
+        font-size: 16px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
 
     /** recetas **/
@@ -61,9 +87,18 @@
         display: block;
     }
 
-    .receta img {
-        width: 100%;
+    .imagen-recetas {
+        width: 100% !important;
+
     }
+
+    .receta {
+        padding: 0%;
+        text-align: left;
+    }
+
+
+
 
     .descripcion-collage {
         font-size: 20px;

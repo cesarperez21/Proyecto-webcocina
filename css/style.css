@@ -1,21 +1,25 @@
 @charset "UTF-8";
-body {
-  background-color: rgb(239, 240, 241);
+main {
+  margin-top: 80px;
+  padding-top: 20px;
+  background-image: url("../imagenes/fondo-web.jpg");
 }
 
-main {
-  padding: 20px;
-  margin-bottom: 20px;
+footer {
+  background-color: rgb(224, 224, 220);
 }
 
 header {
   width: 100%;
   display: flex;
-  margin-top: 5px;
+  position: fixed;
+  top: 0px;
+  margin-top: 0px;
+  justify-content: space-around;
   border-bottom: 2px;
-  justify-content: space-evenly;
   align-items: center;
-  background-color: rgb(192, 192, 148);
+  z-index: 1000;
+  background-color: rgb(224, 224, 220);
 }
 header h1 {
   font-family: "Lobster", sans-serif;
@@ -26,22 +30,23 @@ header h1 {
   text-transform: uppercase;
   font-weight: bold;
   color: aliceblue;
-  background: rgb(110, 47, 47);
+  background: rgb(153, 64, 64);
   border-radius: 10px;
-  padding: 10px;
-}
-
-.logoweb1 {
-  width: 60px;
-  padding-left: 10px;
-  margin-right: 10px;
+  padding: 5px;
+  margin: 0 5px;
 }
 
 nav ul li {
   list-style: none;
   display: inline-block;
-  margin: 0 20px;
+  margin: 0 10px;
   margin-top: 10px;
+}
+
+.logoweb1 {
+  width: 60px;
+  margin-right: 10px;
+  margin-left: 20px;
 }
 
 main::after {
@@ -53,26 +58,22 @@ main::after {
 .collage {
   width: 100%;
   height: auto;
-  border-radius: 20px;
   margin-bottom: 50px;
 }
 
 .contenedor-seccion {
   display: flex;
   justify-content: space-around;
-  padding: 20px;
+  padding: 30px;
   margin-bottom: 40px;
   border-radius: 10px;
-  background-color: #f1e2e2;
 }
 
 .listaseccion {
-  background-color: #f0e5e5;
+  background-color: #fcfbfb;
   border: 1px solid #ddd;
   border-radius: 8px;
   overflow: hidden;
-  margin: 10px;
-  box-shadow: 0 4px 8px rgb(110, 47, 47);
 }
 
 .portadas {
@@ -80,7 +81,7 @@ main::after {
   text-align: center;
 }
 .portadas img {
-  width: 300px;
+  width: 100%;
   border-radius: 8px 8px 0 0;
 }
 
@@ -93,23 +94,40 @@ main::after {
   display: inline-block;
 }
 
-.videotrailer {
-  display: block;
-  float: right;
-  width: 640px;
-  height: 360px;
-}
-
-h2 {
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  text-decoration: underline;
-  font-size: 400px;
-  margin-top: 0px;
-}
-
 p {
   font-family: "Open Sans", sans-serif;
+}
+
+.contenedor-bienvenida {
+  padding: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.imagen-redonda {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-left: 100px;
+}
+
+.texto-bienvenida {
+  font-size: 20px;
+  margin-right: 100px;
+}
+
+.imagen-redonda-blog {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-right: 50px;
+}
+
+.texto-bienvenida-blog {
+  font-size: 20px;
+  margin-left: 300px;
 }
 
 .contenedor-blog {
@@ -210,7 +228,7 @@ input, textarea {
   padding: 20px;
   text-align: center;
 }
-.receta img {
+.receta .imagen-recetas {
   width: 50%;
   border-radius: 8px 8px 0 0;
 }
@@ -259,6 +277,10 @@ div ol li {
   height: auto;
 }
 
+h4 {
+  font-size: small;
+}
+
 /** Adaptado a Movil **/
 @media screen and (max-width: 768px) {
   body {
@@ -296,20 +318,44 @@ div ol li {
     width: 100%;
     border-radius: 8px 8px 0 0;
   }
-  .videotrailer {
+  .collage {
+    margin: 0px;
+  }
+  .contenedor-bienvenida {
+    margin: 0px;
+    display: block;
+  }
+  .imagen-redonda {
     width: 100%;
     height: auto;
-    margin-bottom: 10px;
+    margin: 0px;
+    padding-top: 1px;
   }
-  .collage {
-    margin-bottom: 5px;
+  .imagen-redonda-blog {
+    width: 100%;
+    margin: 0px;
+    padding-top: 1px;
+  }
+  .texto-bienvenida {
+    font-size: 16px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .texto-bienvenida-blog {
+    font-size: 16px;
+    margin-left: 5px;
+    margin-right: 5px;
   }
   /** recetas **/
   .contenedor-recetas {
     display: block;
   }
-  .receta img {
-    width: 100%;
+  .imagen-recetas {
+    width: 100% !important;
+  }
+  .receta {
+    padding: 0%;
+    text-align: left;
   }
   .descripcion-collage {
     font-size: 20px;

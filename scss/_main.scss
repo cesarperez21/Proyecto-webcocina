@@ -1,69 +1,82 @@
 main::after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  .collage {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.collage {
+  width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+}
+
+.contenedor-seccion {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+}
+
+.listaseccion {
+  background-color: #fcfbfb;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+ 
+}
+
+.portadas {
+  padding: 20px;
+  text-align: center;
+
+  img {
     width: 100%;
-    height: auto;
-    border-radius: 20px;
-    margin-bottom: 50px;
+    border-radius: 8px 8px 0 0;
   }
-  
-  .contenedor-seccion {
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
-    margin-bottom: 40px;
-    border-radius: 10px;
-    background-color: #f1e2e2;
-  }
-  
-  .listaseccion {
-    background-color: #f0e5e5;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    overflow: hidden;
-    margin: 10px;
-    box-shadow: 0 4px 8px rgb(110, 47, 47);
-  }
-  
-  .portadas {
-    padding: 20px;
-    text-align: center;
-  
-    img {
-      width: 300px;
-      border-radius: 8px 8px 0 0;
-    }
-  }
-  
-  .botonmas {
-    text-decoration: none;
-    background-color: #28582a;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    display: inline-block;
-  }
-  
-  .videotrailer {
-    display: block;
-    float: right;
-    width: 640px;
-    height: 360px;
-  }
-  
-  h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    text-decoration: underline;
-    font-size: 400px;
-    margin-top: 0px;
-  }
-  
-  p {
-    font-family: 'Open Sans', sans-serif;
-  }
-  
+}
+
+.botonmas {
+  text-decoration: none;
+  background-color: #28582a;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor-bienvenida {
+  padding: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.imagen-redonda {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-left: 100px;
+}
+
+.texto-bienvenida {
+  font-size: 20px;
+  margin-right: 100px;
+}
+
+.imagen-redonda-blog {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-right: 50px;
+}
+
+.texto-bienvenida-blog {
+  font-size: 20px;
+  margin-left: 300px;
+}
