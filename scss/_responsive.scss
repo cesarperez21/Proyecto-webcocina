@@ -53,39 +53,30 @@
     .contenedor-bienvenida {
         flex-direction: column;
 
-        
+
     }
 
-    .imagen-redonda {
-        width: 50%;
-        height: auto;
-        margin: 0px;
-        padding-top: 1px;
-    }
-
-    .texto-bienvenida {
-        font-size: 16px;
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-
-    .contenedor-bienvenida-blog {
-        flex-direction: column-reverse;
-        
-    }
-
+    .imagen-redonda,
     .imagen-redonda-blog {
         width: 50%;
         margin: 0px;
         padding-top: 1px;
-
     }
 
+    .texto-bienvenida,
     .texto-bienvenida-blog {
         font-size: 16px;
         margin-left: 5px;
         margin-right: 5px;
+        margin-top: 20px;
     }
+
+    .contenedor-bienvenida-blog {
+        flex-direction: column-reverse;
+
+    }
+
+
 
     /** recetas **/
 
