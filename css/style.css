@@ -332,6 +332,7 @@ h4 {
   }
   .contenedor-bienvenida {
     flex-direction: column;
+    margin-bottom: 0px;
   }
   .imagen-redonda,
   .imagen-redonda-blog {
