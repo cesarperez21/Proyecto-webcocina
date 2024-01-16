@@ -5,10 +5,6 @@ main {
   background-image: url("../imagenes/fondo-web.jpg");
 }
 
-footer {
-  background-color: rgb(224, 224, 220);
-}
-
 header {
   width: 100%;
   display: flex;
@@ -88,10 +84,9 @@ main::after {
 
 .botonmas {
   text-decoration: none;
-  background-color: #28582a;
+  background-color: rgb(153, 64, 64);
   color: white;
   padding: 10px 20px;
-  border-radius: 5px;
   display: inline-block;
 }
 
@@ -146,7 +141,7 @@ p {
   margin-right: 250px;
 }
 
-.especias {
+.especias, .especias-blog {
   width: 100%;
   margin-bottom: 50px;
   display: flex;
@@ -154,7 +149,7 @@ p {
   background-color: rgb(237, 231, 231);
   box-shadow: 0 4px 8px rgb(110, 47, 47);
 }
-.especias img {
+.especias img, .especias-blog img {
   max-width: 200px;
   height: auto;
   margin-right: 10px;
@@ -223,8 +218,8 @@ input, textarea {
   padding: 10px 20px;
   border: 2px solid #333;
   background-color: #fff;
-  text-decoration: none; /* Para quitar el subrayado del enlace */
-  color: #333; /* Color del texto */
+  text-decoration: none;
+  color: #333;
   cursor: pointer;
 }
 
@@ -243,6 +238,50 @@ input, textarea {
 }
 .receta p {
   margin-bottom: 10px;
+}
+
+/** almuerzos **/
+.contenedor-recetas-web {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+}
+
+.seccion-recetas {
+  background-color: #fcfbfb;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.portadas-recetas {
+  padding: 20px;
+  text-align: center;
+}
+.portadas-recetas .imagen-recetas-web {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.botonmas {
+  text-decoration: none;
+  background-color: rgb(153, 64, 64);
+  color: white;
+  padding: 10px 20px;
+  display: inline-block;
+}
+
+h3 {
+  font-family: "Homer Simpson UI";
+  font-weight: 900;
+  font-size: 1.1em;
+}
+
+.seccion-recetas:hover {
+  transform: scale(1.1);
 }
 
 .contenedor-centrado {
@@ -270,7 +309,7 @@ input, textarea {
 }
 
 footer {
-  margin: 20px;
+  background-color: rgb(224, 224, 220);
   padding: 20px;
   text-align: center;
 }
@@ -364,6 +403,11 @@ h4 {
   .descripcion-collage {
     font-size: 20px;
   }
+  /** almuerzos **/
+  .contenedor-recetas-web {
+    display: block;
+    margin-top: 0px;
+  }
   /** biografia **/
   .contenedor-centrado {
     margin-left: 5px;
@@ -383,8 +427,10 @@ h4 {
     margin: 0;
   }
   .especias {
-    width: 100%;
-    display: block;
+    flex-direction: column;
+  }
+  .especias-blog {
+    flex-direction: column-reverse;
   }
   /** contacto **/
   form {

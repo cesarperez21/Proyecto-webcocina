@@ -96,11 +96,16 @@
     }
 
 
-
-
     .descripcion-collage {
         font-size: 20px;
 
+    }
+
+    /** almuerzos **/
+
+    .contenedor-recetas-web {
+        display: block;
+        margin-top: 0px;
     }
 
 
@@ -129,8 +134,13 @@
     }
 
     .especias {
-        width: 100%;
-        display: block;
+        
+        flex-direction: column;
+    }
+
+    .especias-blog {
+        flex-direction: column-reverse;
+
     }
 
     /** contacto **/

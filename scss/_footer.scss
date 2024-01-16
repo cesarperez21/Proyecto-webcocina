@@ -1,20 +1,21 @@
 footer {
-    margin: 20px;
-    padding: 20px;
-    text-align: center;
-  }
+  background-color: rgb(224, 224, 220);
+  padding: 20px;
+  text-align: center;
   
-  div ol li {
-    display: inline-table;
-    padding-left: 20px;
-    margin-top: 0 10px;
-  }
-  
-  .logo {
-    width: 50px;
-    height: auto;
-  }
+}
 
-  h4 {
-    font-size: small;
-  }
+div ol li {
+  display: inline-table;
+  padding-left: 20px;
+  margin-top: 0 10px;
+}
+
+.logo {
+  width: 50px;
+  height: auto;
+}
+
+h4 {
+  font-size: small;
+}
