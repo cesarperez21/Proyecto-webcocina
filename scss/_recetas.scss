@@ -1,0 +1,96 @@
+.contenedor-recetas {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.descripcion-collage {
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.bonton-mas {
+  display: inline-block;
+  font-weight: 500px;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: 2px solid #333;
+  background-color: #fff;
+  text-decoration: none; 
+  color: #333;
+  cursor: pointer;
+}
+
+.bonton-mas::after {
+  content: "\2192"; 
+  margin-left: 5px;
+
+}
+ 
+
+.receta {
+  padding: 20px;
+  text-align: center;
+
+  .imagen-recetas {
+    width: 50%;
+    border-radius: 8px 8px 0 0;
+  }
+
+
+  p {
+    margin-bottom: 10px;
+  }
+
+ 
+}
+
+/** almuerzos **/
+
+.contenedor-recetas-web {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+}
+
+.seccion-recetas {
+  background-color: #fcfbfb;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+ 
+}
+
+.portadas-recetas {
+  padding: 20px;
+  text-align: center;
+
+.imagen-recetas-web {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+  }
+}
+
+.botonmas {
+  text-decoration: none;
+  background-color:  rgb(153, 64, 64);
+  color: white;
+  padding: 10px 20px;
+  
+  display: inline-block;
+}
+
+h3 {
+  font-family: "Homer Simpson UI";
+  font-weight: 900;
+  font-size: 1.1em;
+}
+
+.seccion-recetas:hover {
+  transform: scale(1.1);
+}

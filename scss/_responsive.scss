@@ -1,0 +1,172 @@
+/** Adaptado a Movil **/
+
+@media screen and (max-width: 768px) {
+    body {
+        display: block;
+    }
+
+    /** header **/
+
+    .logoweb1 {
+        margin-right: 10px;
+    }
+
+    .titulo {
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+    }
+
+    .linkmenu a {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: aliceblue;
+        background: rgb(110, 47, 47);
+        border-radius: 6px;
+        padding: 1px;
+    }
+
+    nav ul li {
+        list-style: none;
+        display: inline-block;
+        margin: 1px;
+        margin-top: 10px;
+    }
+
+    /** main index **/
+
+    .contenedor-seccion {
+        flex-direction: column;
+    }
+
+    .portadas img {
+        width: 100%;
+        border-radius: 8px 8px 0 0;
+    }
+
+    .collage {
+        margin: 0px;
+
+    }
+
+    .contenedor-bienvenida {
+        flex-direction: column;
+        margin-bottom: 0px;
+
+
+    }
+
+    .imagen-redonda,
+    .imagen-redonda-blog {
+        width: 50%;
+        margin: 0px;
+        padding-top: 1px;
+    }
+
+    .texto-bienvenida,
+    .texto-bienvenida-blog {
+        font-size: 16px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 20px;
+    }
+
+    .contenedor-bienvenida-blog {
+        flex-direction: column-reverse;
+
+    }
+
+
+
+    /** recetas **/
+
+    .contenedor-recetas {
+        display: block;
+    }
+
+    .imagen-recetas {
+        width: 100% !important;
+
+    }
+
+    .receta {
+        padding: 0%;
+        text-align: left;
+    }
+
+
+    .descripcion-collage {
+        font-size: 20px;
+
+    }
+
+    /** almuerzos **/
+
+    .contenedor-recetas-web {
+        display: block;
+        margin-top: 0px;
+    }
+
+
+    /** biografia **/
+
+    .contenedor-centrado {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .dibujobuffalo {
+        width: 100%;
+        height: auto;
+    }
+
+    .texto-biografia {
+        font-size: 16px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    /** blog **/
+
+    .contenedor-blog {
+        margin: 0;
+    }
+
+    .especias {
+        
+        flex-direction: column;
+    }
+
+    .especias-blog {
+        flex-direction: column-reverse;
+
+    }
+
+    /** contacto **/
+
+    form {
+        padding: 50px 30px;
+        width: 100%;
+    }
+
+    .contenedor-box-contacto {
+        display: flex;
+        margin-block: 50px;
+    }
+
+    /** footer **/
+
+    div ol li {
+        width: 30px;
+        margin-right: 50px;
+    }
+}
+
+/** adaptado tablet **/
+
+@media screen and (max-width: 1200px) {
+    body {
+        display: block;
+    }
+}
